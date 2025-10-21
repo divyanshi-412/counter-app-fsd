@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.png'); /* Make sure this image is in your folder */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.85); /* Slight white overlay for readability */
+    margin: 100px auto;
+    padding: 30px;
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  #count-el {
+    font-size: 48px;
+    margin: 20px 0;
+  }
+  
+  .buttons {
+    margin-bottom: 20px;
+  }
+  
+  #increment-btn {
+    background-color: #a30000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #save-btn {
+    background-color: #006400;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #save-el {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
